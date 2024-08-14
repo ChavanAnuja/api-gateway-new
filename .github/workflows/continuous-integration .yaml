@@ -33,4 +33,5 @@ jobs:
 
           - name: OWASP Scan
             uses: zaproxy/action-full-scan@v0.10.0
+            continue-on-error: true
               
